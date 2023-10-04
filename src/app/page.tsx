@@ -1,6 +1,6 @@
 
 export default function Home() {
   return (
-   <div>Temples</div>
+   <div>Content</div>
   )
 }
