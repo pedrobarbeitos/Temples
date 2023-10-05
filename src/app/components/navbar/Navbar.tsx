@@ -10,7 +10,7 @@ function Navbar({}: Props) {
         <div className='navbarLeft'>
             <Link href='/'>Temples</Link>
             <Link href='/list'>Index</Link>
-            <button>Search</button>
+            <button className='search'>Search</button>
         </div>
         <div className='navbarRight'>
             <Link href='/shop'>Shop</Link>
