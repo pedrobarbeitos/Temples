@@ -1,0 +1,11 @@
+.cardContainer {
+    min-width: 333px;
+    max-width: 380px;
+    height: 500px;
+    position: relative;
+    flex-grow: 1;  
+}
+
+.cardImage {
+    filter: invert(1);
+}

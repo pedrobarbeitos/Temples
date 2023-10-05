@@ -1,0 +1,30 @@
+.navbar {
+    position: relative;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    
+}
+
+.navbarLeft {
+    display: flex;
+    gap: 10px;
+    font-size: inherit;
+}
+
+.navbarRight {
+    display: flex;
+    gap: 10px;
+    font-size: inherit;
+}
+
+.search {
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    height: 0px;
+
+}
+
