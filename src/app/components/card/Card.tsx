@@ -4,13 +4,18 @@ import './Card.scss'
 
 
 
-type Props = {}
+type Props = {item: any}
 
-function Card({}: Props) {
+function Card({item}: Props) {
   return (
-    <div className="cardContainer">test</div>
-        
-    
+    <div className="cardContainer">
+      <Image 
+        className='cardImage'
+        src={item.imgA} 
+        alt='' 
+        width={333} 
+        height={500}></Image>
+    </div>
   )
 }
 

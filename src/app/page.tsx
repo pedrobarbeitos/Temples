@@ -54,15 +54,10 @@ export default function Home() {
   <div className="mainContainer">
     <h1>Temples is a collection of ancient religious buildings constructed by the Hellenic people from the 6th century BC until the 2nd century AD across the Mediterranean Sea.</h1>
     <div className="container">
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      {data.map(item => (
+        <Card item={item} key={item.id}/>
+      ))}
+     
     </div>
    </div>
   )
