@@ -1,0 +1,23 @@
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.navbarLeft {
+    background-color: blue;
+    display: flex;
+    gap: 10px;
+    font-size: inherit;
+
+}
+
+.navbarRight {
+    background-color: yellow;
+    display: flex;
+    gap: 10px;
+    font-size: inherit;
+}
+
