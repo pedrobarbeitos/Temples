@@ -16,6 +16,20 @@ In addition to being an educational platform, Temples also functions as an onlin
 Built with <a href="https://www.gatsbyjs.org/" target="_blank">Netx.js</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Vercel</a>
 </p>
 
-npm run dev
+## Contributions
+
+
 
 ## Installation & Set Up
+
+1. Install Dependencies
+
+   ```sh
+   npm install
+   ```
+
+2. Start the development server
+
+   ```sh
+   npm start dev
+   ```
