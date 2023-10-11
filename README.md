@@ -16,9 +16,6 @@ In addition to being an educational platform, Temples also functions as an onlin
 Built with <a href="https://www.gatsbyjs.org/" target="_blank">Netx.js</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Vercel</a>
 </p>
 
-## Contributions
-
-
 
 ## Installation & Set Up
 
