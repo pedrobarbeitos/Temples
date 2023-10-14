@@ -13,8 +13,8 @@ function Card({item}: Props) {
         className='cardImage'
         src={item.imgA} 
         alt='' 
-        width={333} 
-        height={500}></Image>
+        fill={true}
+        objectFit='cover'/>
     </div>
   )
 }

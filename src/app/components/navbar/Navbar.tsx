@@ -8,7 +8,7 @@ function Navbar({}: Props) {
   return (
     <div className='navbar'>
         <div className='navbarLeft'>
-            <Link href='/'>Temples</Link>
+            <Link href='/'><strong>Temples</strong></Link>
             <Link href='/list'>Index</Link>
             <button className='search'>Search</button>
         </div>
